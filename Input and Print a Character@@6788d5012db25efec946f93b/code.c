@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char n;
+    char 'n';
     scanf("%c",&n);
     printf("You entered: %c");
     return 0;
