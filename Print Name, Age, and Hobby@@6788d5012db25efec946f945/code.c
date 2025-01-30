@@ -2,7 +2,8 @@
 int main() {
     char name[],hob[];
     int age;
-    scanf("%s %d",&name,&age);
+    scanf("%s",name);
+    scanf("%d",age);
     scanf("%s",hob);
     printf("Name: %s",name);
     printf("Age: %d",&age);
