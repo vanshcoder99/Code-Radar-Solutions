@@ -3,17 +3,20 @@ int main() {
    int a,b;
    char c;
    scanf("%d %d %c",&a,&b,&c);
-if(c=='+'){
+if(c =='+'){
     printf("%d",a+b);
 }
-else if(c=='-'){
+else if(c =='-'){
     printf("%d",a-b);
 }
-else if(c=='*'){
+else if(c =='*'){
     printf("%d",a*b);
 }
-else{
+else if(c == '/'){
     printf("%d",a/b);
+}
+else{
+    printf("error")
 }
     return 0;
 }
