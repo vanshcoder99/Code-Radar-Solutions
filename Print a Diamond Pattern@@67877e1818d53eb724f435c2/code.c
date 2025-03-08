@@ -8,21 +8,18 @@
         for(int j=1;j<=nsp;j++){
             printf(" ");
         }
-        nsp--;
         for(int k=1;k<=nst;k++){
             printf("*");
         }
-        nst+=2;
-        if(i>N){
-            nst-=2;
+        if(i<N){
             nsp--;
-            for(int i=1;i<=nsp;i++){
-                printf(" ");
-            }
-            for(int j=1;j<=nst;j++){
-                printf("*");
-            }
+            nst+=2;
         }
+        else{
+            nsp++;
+            nst-=2;
+        }
+  
         printf("\n");
     }
     return 0;
