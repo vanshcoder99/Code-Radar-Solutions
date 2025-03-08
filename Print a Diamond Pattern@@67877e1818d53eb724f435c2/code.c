@@ -19,6 +19,7 @@ int main(){
             nsp++;
             nst-=2;
         }
+        printf("\n");
     }
     return 0;
 }
