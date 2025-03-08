@@ -1,5 +1,5 @@
- #include<stdio.h>
- int main(){
+#include<stdio.h>
+int main(){
     int N;
     scanf("%d",&N);
     int nst = 1;
@@ -19,8 +19,6 @@
             nsp++;
             nst-=2;
         }
-  
-        printf("\n");
     }
     return 0;
- }
+}
