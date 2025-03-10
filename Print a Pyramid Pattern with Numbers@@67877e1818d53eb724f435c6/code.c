@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
     int N;
-    int nsp = N-1;
     scanf("%d",&N);
+    int nsp = N-1;
     for(int i=1;i<=N;i++){
         for(int k=1;k<=nsp;k++){
             printf(" ");
