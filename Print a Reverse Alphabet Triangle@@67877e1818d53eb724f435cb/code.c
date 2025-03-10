@@ -5,10 +5,10 @@ int main(){
     for(int i=N;i>=1;i--){
         int a = 65;
         for(int j=1;j<=i;j++){
-            printf("%c",a);
+            printf("%c ",a);
             a++;
         }
-        printf("n");
+        printf("\n");
     }
     return 0;
 }
