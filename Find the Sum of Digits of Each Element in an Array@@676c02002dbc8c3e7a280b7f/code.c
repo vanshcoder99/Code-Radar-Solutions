@@ -14,7 +14,7 @@ int main(){
         rev = rev + rem;
         num = num / 10;
         }
-        printf("%d",rev);
+        printf("%d ",rev);
     }
     return 0;
 }
