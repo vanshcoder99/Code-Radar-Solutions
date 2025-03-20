@@ -11,7 +11,6 @@ int main(){
         int rev = 0;
         num = num % 10;
         rev = rev + num;
-        num = num / 10;
         printf("%d",rev);
     }
     return 0;
