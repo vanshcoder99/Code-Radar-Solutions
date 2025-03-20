@@ -8,9 +8,8 @@ int main(){
     }
     for(int i=0;i<N;i++){
         int num = arr[i];
+        int rem,rev = 0;
         while(num !=0){
-        int rev = 0;
-        int rem;
         rem = num % 10;
         rev = rev + rem;
         num = num / 10;
