@@ -1,4 +1,4 @@
-int fibonaccciseries(int n){
+int fibonacciSeries(int n){
     int x=0,y=1,z;
     while(n){
         printf("%d ",&x);
