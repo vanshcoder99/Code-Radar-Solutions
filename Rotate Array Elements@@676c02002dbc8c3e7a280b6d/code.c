@@ -19,10 +19,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&K);
-    k = k % n;
-    rot(arr,0,n-1);
-    rot(arr,0,k-1);
-    rot(arr,k,n-1);
+    K = K % N;
+    rot(arr,0,N-1);
+    rot(arr,0,K-1);
+    rot(arr,k,N-1);
     for(int i=0;i<=N-1;i++){
         printf("%d\n",arr[i]);
     }
