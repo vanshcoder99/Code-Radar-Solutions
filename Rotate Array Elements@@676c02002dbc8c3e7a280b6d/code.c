@@ -22,7 +22,7 @@ int main(){
     K = K % N;
     rot(arr,0,N-1);
     rot(arr,0,K-1);
-    rot(arr,k,N-1);
+    rot(arr,K,N-1);
     for(int i=0;i<=N-1;i++){
         printf("%d\n",arr[i]);
     }
