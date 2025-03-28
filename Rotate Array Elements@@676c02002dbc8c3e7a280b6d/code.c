@@ -1,5 +1,5 @@
 #include<stdio.h>
-void rot(int arr[N],a,b){
+void rot(int arr[],a,b){
     int i = a;
     int j = b;
     while(i<j){
