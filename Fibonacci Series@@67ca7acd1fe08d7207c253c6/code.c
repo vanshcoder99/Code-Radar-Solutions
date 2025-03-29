@@ -5,5 +5,6 @@ void fibonacciSeries(int n){
         z = x + y;
         x = y;
         y = z;
+        n--;
     }
 }
