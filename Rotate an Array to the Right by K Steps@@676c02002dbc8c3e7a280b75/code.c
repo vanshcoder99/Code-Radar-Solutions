@@ -1,4 +1,16 @@
 #include<stdio.h>
+void rotate(int arr[],int N,int a,int b){
+    int i = a;
+    int j = b;
+    while(i<j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        i++;
+        j--;
+    }
+    return;
+}
 int main(){
     int N,K;
     scanf("%d",&N);
