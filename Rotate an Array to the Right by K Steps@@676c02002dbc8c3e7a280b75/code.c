@@ -19,7 +19,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     scanf("%d",&K);
-    int K = K%N;
+    K = K % N;
     rotate(arr,N,0,N-1);
     rotate(arr,N,0,K-1);
     rotate(arr,N,K,N-1);
