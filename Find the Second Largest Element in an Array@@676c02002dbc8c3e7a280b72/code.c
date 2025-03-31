@@ -22,11 +22,11 @@ int main(){
             flag = 0;
         }
     }
-    if(flag==1){
+    // if(flag==1){
         printf("%d",smax);
-    }
-    else{
-        printf("-1");
-    }
+    // }
+    // else{
+    //     printf("-1");
+    // }
     return 0;
 }
