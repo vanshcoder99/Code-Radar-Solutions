@@ -9,7 +9,7 @@ int main(){
             printf(" ");
         }
         for(int k=1;k<=nst;k++){
-            printf("* ");
+            printf("*");
         }
         nsp--;
         nst+=2;
