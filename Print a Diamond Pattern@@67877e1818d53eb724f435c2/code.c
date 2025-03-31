@@ -12,12 +12,12 @@ int main(){
             printf("*");
         }
         if(i<N){
-            nst+=2;
             nsp--;
+            nst+=2;
         }
         else{
-            nst=-2;
             nsp++;
+            nst-=2;
         }
         printf("\n");
     }
