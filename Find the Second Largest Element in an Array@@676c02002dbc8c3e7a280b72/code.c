@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
     int N;
     scanf("%d",&N);
@@ -7,8 +8,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int flag = 1;
-    int max = arr[0];
-    int smax = arr[0];
+    int max = INT_MIN;
+    int smax = INT_MIN;
     for(int i=0;i<N;i++){
         if(max<arr[i]){
             max = arr[i];
@@ -19,7 +20,7 @@ int main(){
             smax = arr[i];
         }
     }
-    if(smax==arr[0]){
+    if(smax==INT_MIN){
         printf("-1");
     }
     else{
