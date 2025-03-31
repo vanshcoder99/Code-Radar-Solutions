@@ -8,7 +8,7 @@ int main(){
     }
     int flag = 1;
     int max = arr[0];
-    int smax = arr[0];
+    int smax = -1;
     for(int i=0;i<N;i++){
         if(max<arr[i]){
             max = arr[i];
@@ -18,15 +18,13 @@ int main(){
         if(smax<arr[i] && arr[i]!=max){
             smax = arr[i];
         }
-        else{
-            flag = 0;
-        }
     }
-    // if(flag==1){
+    if(smax==-1){
+        printf("-1");
+    }
+    else{
         printf("%d",smax);
-    // }
-    // else{
-    //     printf("-1");
-    // }
+    }
+
     return 0;
 }
