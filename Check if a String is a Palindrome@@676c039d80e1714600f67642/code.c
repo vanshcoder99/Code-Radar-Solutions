@@ -8,7 +8,7 @@ int main(){
     }
     int i = 0;
     int j = k-1;
-    while(int i<=j){
+    while(i<=j){
         char temp = str[i];
         rtr[i] = rtr[j];
         rtr[j] = temp;
