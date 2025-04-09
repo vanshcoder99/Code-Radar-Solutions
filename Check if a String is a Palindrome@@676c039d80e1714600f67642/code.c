@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char str[20],rtr[20];
+    char str[20],char rtr[20];
     fgets(str,20,stdin);
     int k = 0;
     while(str[k]!='\0'){
@@ -15,7 +15,7 @@ int main(){
         i++;
         j--;
     }
-    if(str = rtr){
+    if(str[] = rtr[]){
         printf("Yes");
     }
     else{
