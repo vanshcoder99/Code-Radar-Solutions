@@ -6,7 +6,7 @@ int main(){
     int k = 0;
     int size = 0;
     while(str[k]!='\0'){
-        size++
+        size++;
         k++;
     }
     int i = 0;
