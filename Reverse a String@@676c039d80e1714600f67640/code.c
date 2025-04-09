@@ -9,7 +9,7 @@ int main(){
     }
     int i = 0;
     int j = k-1;
-    while(i<j){
+    while(i<=j){
         int temp = str[i];
         str[i] = str[j];
         str[j] = temp;
