@@ -2,8 +2,8 @@
 #include<string.h>
 int main(){
     char str[20];
-    scanf("%[^\n]s",str);
-    // fgets(str,20,stdin);
+    // scanf("%[^\n]s",str);
+    fgets(str,20,stdin);
     int k = 0;
     int size = 0;
     while(str[k]!='\0'){
