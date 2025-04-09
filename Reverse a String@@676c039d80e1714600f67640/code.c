@@ -4,11 +4,13 @@ int main(){
     int str[20];
     scanf("%[^\n]s",str);
     int k = 0;
+    int size = 0;
     while(str[k]!='\0'){
+        size++
         k++;
     }
     int i = 0;
-    int j = k-1;
+    int j = size-1;
     while(i<=j){
         char temp = str[i];
         str[i] = str[j];
