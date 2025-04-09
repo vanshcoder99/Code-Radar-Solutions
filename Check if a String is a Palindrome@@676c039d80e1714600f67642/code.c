@@ -1,6 +1,7 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
-    char str[20],char rtr[20];
+    char str[20];
     fgets(str,20,stdin);
     int k = 0;
     while(str[k]!='\0'){
@@ -8,19 +9,20 @@ int main(){
     }
     int i = 0;
     int j = k-1;
+    int flag = 1;
     while(i<=j){
-        char temp = str[i];
-        rtr[i] = rtr[j];
-        rtr[j] = temp;
+        if(str[i] != str[j]){
+            flag = 0;
+            break;
+        }
         i++;
         j--;
     }
-    if(str[] = rtr[]){
+    if(flag){
         printf("Yes");
     }
     else{
         printf("No");
     }
-
     return 0;
 }
