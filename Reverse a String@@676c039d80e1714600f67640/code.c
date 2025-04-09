@@ -16,6 +16,6 @@ int main(){
         i++;
         j--;
     }
-    puts(str);
+    printf("%s",str);
     return 0;
 }
