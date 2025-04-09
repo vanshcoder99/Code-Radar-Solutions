@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
     int str[20];
     scanf("%[^\n]s",str);
@@ -12,6 +13,8 @@ int main(){
         int temp = str[i];
         str[i] = str[j];
         str[j] = temp;
+        i++;
+        j--;
     }
     puts(str);
     return 0;
