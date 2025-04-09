@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    int str[20];
-    // scanf("%[^\n]s",str);
-    fgets(str,20,stdin);
+    char str[20];
+    scanf("%[^\n]s",str);
+    // fgets(str,20,stdin);
     int k = 0;
     int size = 0;
     while(str[k]!='\0'){
